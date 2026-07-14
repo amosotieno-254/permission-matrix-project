@@ -1,0 +1,32 @@
+{
+  "name": "permission-matrix-builder",
+  "version": "1.0.0",
+  "description": "RBAC library with a declarative DSL, deny-override, and ownership checks.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "rbac",
+    "authorization",
+    "middleware",
+    "permissions"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "express": "^5.2.1",
+    "tsx": "^4.23.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.6.1"
+  }
+}
